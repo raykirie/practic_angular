@@ -1,0 +1,51 @@
+.about_us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.skils{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    gap: 80px;
+    margin-bottom: 20px;
+}
+
+.img > img {
+    width: 528px;
+    height: 439px;
+}
+
+.text > p {
+    font-size: 24px;
+}
+
+.text > h2 {
+    font-size: 36px;
+    color: #1A2434;
+}
+
+.btn{
+    display: flex;
+    
+}
+
+.btn > button {
+    width: 307px;
+    height: 72px;
+    color: white;
+    border-radius: 16px;
+    background-color: #A4074D;
+    border: none;
+    font-size: 20px;
+}
+
+.num{
+    display: flex;
+    gap: 160px;
+}
+
+

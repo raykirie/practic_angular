@@ -1,0 +1,16 @@
+<div class="students">
+    <div class="st_text">
+        <p><img style="margin-bottom: 5px; margin-right: 40px;" src="/assets/Vector 2.png"/>Testimonial</p>
+        <h2>Student Testimonial</h2>
+    </div>
+    <div class="main_students">
+        @for (students of students; track students.id){
+            <div class="for_st">
+                <h2>{{students.author}}</h2>
+                <p>{{students.spec}}</p>
+                <h2><img style="width: 14px; height: 14px; margin-right: 10px;" src="/assets/star.jpg"/>{{students.rating}}</h2>
+                <p>{{students.text}}</p>
+            </div>
+        }
+    </div>
+</div>

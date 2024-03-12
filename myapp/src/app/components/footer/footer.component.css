@@ -1,0 +1,50 @@
+.footer {
+    display: flex;
+    background-color: #1A2434;
+    padding: 80px;
+}
+
+.footer_main{
+    display: flex;
+    gap: 220px;
+    margin-left: 140px;
+}
+
+.first > h2 {
+    font-size: 27px;
+    color: White;
+    margin: 0;
+}
+
+.first > p {
+    color: white;
+    font-size: 20px;
+}
+
+.second > h2 {
+    font-size: 27px;
+    color: white;
+    margin: 0;
+}
+
+.second > p {
+    color: white;
+    font-size: 20px;
+}
+
+.third > h2 {
+    font-size: 27px;
+    color: white;
+    margin: 0;
+}
+
+.third > p {
+    color: white;
+    font-size: 20px;
+}
+
+.icon > h2 {
+    font-size: 27px;
+    color: white;
+    margin: 0;
+}

@@ -1,0 +1,48 @@
+.students {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    background-color: #F9FCFF;
+}
+.st_text{
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.st_text > p {
+    font-size: 24px;
+    margin: 0;
+}
+
+.st_text > h2 {
+    font-size: 36px;
+    color: #1A2434;
+}
+
+.main_students{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 100px;
+}
+
+.for_st{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 350px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.for_st > h2 {
+    font-size: 20px;
+    color: #1A2434;
+}
+
+.for_st > p {
+    font-size: 16px;
+    color: #1A2434;
+}

@@ -1,0 +1,24 @@
+<div class="blog">
+    <div class="blog_text">
+        <p><img style="margin-bottom: 5px; margin-right: 40px;" src="/assets/Vector 2.png"/>Blog</p>
+        <h2>Browse articles</h2>
+    </div>
+    <div class="blog_for">
+        @for (blog of blog; track blog.id){
+            <div class="blog_for_text">
+                <img style="width: 325px; height: 270px;" src={{blog.imageSrc}}/>
+                <div class="date">
+                    <p> <img style="width: 17px; height: 17px; margin-right: 15px;" src="/assets/user.jpg"/>{{blog.author}}</p>
+                    <p> <img style="width: 17px; height: 17px; margin-right: 15px;" src="/assets/date.jpg"/>{{blog.date}}</p>
+                </div>
+                <p>{{blog.title}}</p>
+                <div>
+                    <p style="text-align: center; font-size: 30px; color: #1A2434;">Read more <img style="position: relative; top: 5px; left: 10px;" src="/assets/ArrowBlack.png"/></p>
+                </div>
+            </div>
+        }
+    </div>
+    <div class="blog_btn">
+        <button>View all<img style="position: relative; top: 5px; left: 10px;" src="/assets/ArrowRight.png"/></button>
+    </div>
+</div>

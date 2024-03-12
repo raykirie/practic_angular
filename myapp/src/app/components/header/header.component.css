@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.logo{
+    margin-left: 120px;
+    margin-top: 15px;
+}
+
+.logo > img {
+    width: 42px;
+    height: 38px;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    margin-left: 1200px;
+}
+
+.wrapper > p {
+    font-size: 20px;
+}
